@@ -4,8 +4,6 @@ import { Server as SocketIOServer } from 'socket.io';
 import cors from 'cors';
 import {Game} from './logic/uno';
 import {createGame} from "./utils/test_adapter";
-import { createHand } from './logic/hand';
-import { createInitialDeck } from './logic/deck';
 
 
 const app = express();
